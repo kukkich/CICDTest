@@ -35,4 +35,12 @@ public class MathTests
 
         Assert.That(result, Is.EqualTo(5));
     }
+
+    [Test]
+    public void MultiplyTest()
+    {
+        var result = a / b;
+
+        Assert.That(result, Is.EqualTo(20));
+    }
 }
