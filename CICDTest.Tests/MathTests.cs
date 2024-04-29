@@ -39,7 +39,7 @@ public class MathTests
     [Test]
     public void MultiplyTest()
     {
-        var result = a / b;
+        var result = a * b;
 
         Assert.That(result, Is.EqualTo(20));
     }
